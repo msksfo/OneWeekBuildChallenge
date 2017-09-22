@@ -1,12 +1,5 @@
 
-h1,h2,h3,h4,h5,h6 {
-  font-family: "Alegreya", serif;
-  font-weight: 400;
-}
-p,a,li,blockquote {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 300;
-}
+
 
 section#cover {
 	background-image: url('../images/got-backgroundimage.jpg');
@@ -27,3 +20,51 @@ p.title {
 	color: #d4d4d4;
 	text-align: center;
 }
+
+section#products {
+	padding: 2rem;
+	border-bottom: 8px solid #a30404;
+	border-bottom: 10px solid #c40505;
+}
+
+.products {
+	background-color: #c40505;
+	color: #ededed;
+	padding: 1rem;
+}
+
+button a {
+	color: #c40505;
+}
+
+.btn:focus, .btn:active:focus, .btn.active:focus {
+	background-color: #c40505;
+	color: white;
+}
+
+button a:hover {
+	color: white;
+	text-decoration: none;
+}
+
+h2 {
+	font-weight: 300;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
