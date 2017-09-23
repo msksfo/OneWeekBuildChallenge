@@ -29,8 +29,14 @@ section#products {
 
 .products {
 	background-color: #c40505;
+	background-color #618FB4;
 	color: #ededed;
 	padding: 1rem;
+}
+
+hr {
+	margin-top: 3.5rem;
+	margin-bottom: 3.5rem;
 }
 
 button a {
