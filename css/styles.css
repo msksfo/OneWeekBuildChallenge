@@ -62,13 +62,13 @@ hr {
 button a {
 	color: #c40505;
 }
-
+/*
 .btn:focus, .btn:active:focus, .btn.active:focus {
 	background-color: #c40505;
 	color: white;
 }
-
-button a:hover {
+*/
+button a:hover, button:hover a {
 	color: white;
 	text-decoration: none;
 }
