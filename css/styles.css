@@ -40,6 +40,10 @@ section#products {
 	padding: 1rem;
 }
 
+.margin-top {
+	margin-top: 2.5rem;
+}
+
 div.col-md-4 {
 	border: 1px solid rgba(117, 117, 117, .4);
 	margin-bottom: 2.5rem;
