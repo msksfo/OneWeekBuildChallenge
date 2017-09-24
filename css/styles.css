@@ -1,24 +1,25 @@
 
 
-
 section#cover {
-	background-image url('../images/got-backgroundimage.jpg');
-	background-repeat no-repeat;
+	background: transparent url('../images/got-backgroundimage.jpg');
+	background-repeat: no-repeat;
 
 	background-size cover;
-	background-size 100% auto;
+	background-size: 100% auto;
 	
-	height: 450px;
+	height: 65vh;
+
 	border-bottom: 8px solid #757575;
 
 }
-
+/*
 #image-container {
 	min-height: 100%;
 	background-image: url('../images/got-backgroundimage.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+*/
 
 p.title {
 	font-family: 'Cinzel', serif;
@@ -30,7 +31,6 @@ p.title {
 
 section#products {
 	padding: 2rem;
-	border-bottom: 8px solid #a30404;
 	border-bottom: 10px solid #c40505;
 }
 
@@ -62,12 +62,7 @@ hr {
 button a {
 	color: #c40505;
 }
-/*
-.btn:focus, .btn:active:focus, .btn.active:focus {
-	background-color: #c40505;
-	color: white;
-}
-*/
+
 button a:hover, button:hover a {
 	color: white;
 	text-decoration: none;
@@ -79,7 +74,10 @@ h2.lighter {
  section#video {
  	background-color: rgb(30, 30, 30);
  	padding: 2rem;
- 	border-bottom: 8px solid #757575;
+ }
+
+ section#video h2 {
+ 	font-family: 'Cinzel';
  }
 
  section#video h2 {
@@ -107,6 +105,33 @@ h2.lighter {
  section#video a:hover {
  	color: #c40505;
  }
+
+ section#facts {
+ 	color: #ededed;
+ 	background-color: #aa9586;
+ 	padding-top:2rem;
+ 	border: 15px double #757575;
+ }
+
+ section#facts h3 {
+ 	font-family: 'Cinzel';
+ 	font-weight: 300;
+ 	text-shadow: 1px 1px #000;
+ }
+
+ ul {
+ 	border: 5px double #757575;
+ 	margin-bottom: 3rem;
+ }
+
+ li {
+ 	font-size: 1.2rem;
+ 	font-weight: 300;
+ 	padding: .5em;
+ }
+
+
+ /* =====================================================*/
 
 @media all and (min-width: 768px){
 	hr {
